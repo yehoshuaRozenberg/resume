@@ -1,0 +1,65 @@
+<div class="aside" [ngClass]="{'aside--active': isActive}">
+    <div class="container">
+        <section class="aside__image">
+            <div class="row">
+                <div class="col-lg-12 center">
+                    <div class="aside__image-container">
+                    <!-- <img class="img-fluid" src="https://picsum.photos/300/300" alt=""> -->
+                    <img class="img-fluid" src="https://picsum.photos/seed/picsum/300/300" alt="">
+
+                    </div>
+                    <h2 class="text-center">
+                        Yehoshua Rozenberg
+                    </h2>
+                    <h4 class="text-center">
+                        Full Stack Developer
+                    </h4>
+                </div>
+            </div>
+        </section>
+        <section class="aside__links">
+<div class="d-flex text-center">
+    <a target="_blank" href="https://www.linkedin.com/in/yehoshua-rozenberg-784b52224/">
+        <i class="fa-brands fa-linkedin"></i>
+    </a>
+    <a target="_blank" href="https://github.com/yehoshuaRozenberg">
+        <i class="fa-brands fa-github"></i>
+    </a>    
+</div>
+        </section>
+        <section class="aside__nav">
+<nav>
+    <ul>
+        <li>
+            <a href="#home">Home</a>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <a href="#about">About</a>
+        </li>
+    </ul><ul>
+        <li>
+            <a href="#resume">Resume</a>
+        </li>
+    </ul><ul>
+        <li>
+            <a href="#portfolio">Portfolio</a>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+</nav>
+        </section>
+    </div>
+
+</div>
+
+<div class="menu-btn-container">
+    <button mat-fab (click)="toggleMenu()">
+        <i class="fa-sharp fa-solid fa-bars"></i>
+    </button>
+</div>
