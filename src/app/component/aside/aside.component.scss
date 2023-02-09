@@ -1,3 +1,4 @@
+@import "../../styles/global";
 .aside{
     width: 300px;
     position: fixed;
@@ -26,7 +27,7 @@
             transition: 0.2s all ease;
 
             &:hover{
-                color: #37b3ed;
+                color: $main_color;
             }
         }
     }
@@ -42,7 +43,7 @@
                     color: #fff;
                     text-decoration: none;
                     &:hover{
-                        color: #37b3ed;
+                        color: $main_color;
                     }
                 }
             }

@@ -1,5 +1,8 @@
 .app{
-    &_aside{
+    &__aside{
         overflow: hidden;
+    }
+    main{
+       margin-left: 300px;
     }
 }
